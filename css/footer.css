@@ -1,0 +1,9 @@
+.section.footer{
+   
+    margin: 1em;
+}
+.footer__rodape{
+    text-align: center;
+    background-color: var(--cor-do-menu);
+  position:relative;
+}

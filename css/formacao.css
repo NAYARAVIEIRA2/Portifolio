@@ -1,0 +1,162 @@
+
+.section.academic{
+
+    text-align: center;
+    padding: 1rem 0;
+    
+    background: var(--cor-do-menu);
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 2;
+    align-self: stretch;
+    flex-grow: 0;
+}
+#formacao{
+    padding: 2em 0;
+    margin: 0 auto;
+    
+    }
+
+ .academic__title{
+ width: 330px;
+height: 38px;
+
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 38px;
+/* identical to box height */
+
+text-align: center;
+
+/* Preto/100% */
+
+color: #464646;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0
+
+    }
+    .academic__courses{
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 16px;
+gap: 16px;
+
+width: 1136px;
+height: 347px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;;
+    }
+.academic__courses__box{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0px;
+        gap: 8px;
+        width: 408px;
+        height: 347px;
+        
+        /* Inside auto layout */
+        
+        flex: none;
+        order: 0;
+        flex-grow: 0
+    }
+ .academic__courses__list{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0px;
+        gap: 8px;
+        
+        width: 368px;
+        height: 347px;
+        
+        
+        /* Inside auto layout */
+        
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
+    .academic__courses__item__img {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 16px;
+        gap: 10px;
+        
+        width: 368px;
+        height: 286px;
+        
+        /* Preto/branco */
+        
+        background:white;
+        border: var(--cor-do-menu) solid 1px;
+        
+        /* Inside auto layout */
+        
+        flex: none;
+        order: 0;
+        flex-grow: 0;;   
+    }
+    .academic__courses__item__title{
+        width: 171px;
+        height: 26px;
+        
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 20px;
+        /* identical to box height */
+        
+        
+        /* Preto/100% */
+        
+        color: #464646;
+        
+        
+        /* Inside auto layout */
+        
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+    }
+    .academic__courses__item__subtitle{
+        width: 92px;
+        height: 19px;
+        
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+       
+        
+        color: #464646;
+       
+        
+        flex: none;
+        order: 2;
+        flex-grow: 0;
+    
+          
+    }
+  

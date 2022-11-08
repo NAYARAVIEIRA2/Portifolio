@@ -1,0 +1,109 @@
+
+.skills, .hobbies{
+    text-align: center;
+}
+.skills__img, .hobbies__img{
+width: 28px;
+height: 45px;
+font-family: 'Font Awesome 5 Brands';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 37px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #17e0a4;
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.skills__title, .hobbies__title{
+    font-size: 1.375rem;
+    font-weight: 700;
+    }
+.skills__line{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 16px;
+    
+    width: 1130px;
+    height: 174px;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    }
+/*Sessão Hobbies*/
+
+.section.hobbies{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 32px;
+    
+    width: 1136px;
+    height: 244px;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    
+}
+
+.hobbies__line{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 16px;
+    
+    width: 1136px;
+    height: 174px;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 1;
+    flex-grow: 0;    
+}
+@media (min-width: 768px) {
+    .skills__line {
+        width: calc(33.33% - 2rem);
+    }
+
+    /*Hobbies*/
+    .hobbies__line {
+        width: calc(33.33% - 2rem);
+    }}
+    @media(min-width:425px){
+        .skills__title {
+            font-size: 2rem;
+        }
+    
+        .skills__line {
+            flex-grow: 1;
+            width: auto;
+        }
+    
+        /*Hobbies*/
+        .hobbies__title {
+            font-size: 2rem;
+        }
+    
+        .hobbies__line {
+            flex-grow: 1;
+            width: auto;
+        }
+    }
